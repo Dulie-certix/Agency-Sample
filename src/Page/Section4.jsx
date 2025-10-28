@@ -5,6 +5,7 @@ import logo3 from "../assets/logo3.png";
 import logo5 from "../assets/logo5.png";
 import star from "../assets/star.png";
 import design1 from "../assets/design1.png";
+import Button from "../Components/Button";
 
 export default function Section4() {
   const [isOpen, setIsOpen] = useState(false);
@@ -67,9 +68,12 @@ export default function Section4() {
                 placeholder="Enter your email"
                 className="flex-1 px-4 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[11px] text-[#787878] outline-none"
               />
-              <button className="2xl:w-[185px] xl:w-[173px] lg:w-[130px] md:w-[115px] sm:w-[100px] w-[90px] bg-black 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[11px] font-[500] text-white">
+              <Button 
+                variant="primary" 
+                className="2xl:w-[185px] xl:w-[173px] lg:w-[130px] md:w-[115px] sm:w-[100px] w-[90px] bg-black"
+              >
                 SUBSCRIBE
-              </button>
+              </Button>
             </div>
           </div>
         </div>

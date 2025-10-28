@@ -1,4 +1,5 @@
 import { useState } from "react";
+import Button from "./Button";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -44,9 +45,12 @@ export default function Navbar() {
             </div>
           </div>
 
-          <button className="hidden md:block 2xl:w-[133px] xl:w-[125px] xm:w-[115px] lg:w-[105px] md:w-[95px] 2xl:h-[44px] xl:h-[41px] xm:h-[39px] lg:h-[36px] md:h-[34px] bg-[#1090CB] text-white rounded-[6px] 2xl:text-[14px] xl:text-[13px]  lg:text-[11px] md:text-[10px] ml-[0px] mr-[40px]">
+          <Button 
+            variant="primary" 
+            className="hidden md:block 2xl:w-[133px] xl:w-[125px] xm:w-[115px] lg:w-[105px] md:w-[95px] 2xl:h-[44px] xl:h-[41px] xm:h-[39px] lg:h-[36px] md:h-[34px] 2xl:text-[14px] xl:text-[13px] lg:text-[11px] md:text-[10px] ml-[0px] mr-[40px]"
+          >
             Contact us
-          </button>
+          </Button>
 
           <button
             className="md:hidden text-[#1090CB] text-2xl sm:mr-[30px] mr-[10px]"
@@ -71,9 +75,9 @@ export default function Navbar() {
               <a href="#" className="hover:text-[#1090CB] text-[16px]">
                 Blog
               </a>
-              <button className="w-full h-[41px] bg-[#1090CB] text-white rounded-[6px] text-[13px] px-4">
+              <Button variant="primary" className="w-full h-[41px] text-[13px] px-4">
                 Contact us
-              </button>
+              </Button>
             </div>
           </div>
         )}

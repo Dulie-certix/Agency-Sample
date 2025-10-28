@@ -7,6 +7,7 @@ import list2 from "../assets/list2.png";
 import list3 from "../assets/list3.png";
 import list4 from "../assets/list4.png";
 import ServiceItem from "../Components/ServiceItem";
+import Button from "../Components/Button";
 
 export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
@@ -29,12 +30,12 @@ export default function Hero() {
         </p>
 
         <div className="flex flex-row gap-4 2xl:mt-[69px] xl:mt-[65px] lg:pt-[40px] md:mt-[30px] sm:mt-[25px] mt-[120px]  2xl:ml-[131px] xl:ml-[123px] lg:ml-[85px] md:ml-[65px] md:justify-start sm:justify-center justify-center">
-          <button className="2xl:w-[206px] xl:w-[193px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[90px] 2xl:h-[54px] xl:h-[51px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[30px] font-normal 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[9px] text-[#FFFFFF] bg-[#1090CB] rounded-[10px] ">
+          <Button variant="primary">
             Contact us
-          </button>
-          <button className="2xl:w-[206px] xl:w-[193px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[90px] 2xl:h-[54px] xl:h-[51px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[30px] font-normal 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[9px] text-[#1090CB] bg-[#FFFFFF] rounded-[10px] border-[1px] border-[#1090CB]">
+          </Button>
+          <Button variant="secondary">
             View more
-          </button>
+          </Button>
         </div>
 
         <div>

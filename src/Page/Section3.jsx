@@ -1,5 +1,6 @@
 import { useState } from "react";
 import bell from "../assets/bell.png";
+import Button from "../Components/Button";
 
 export default function Section3() {
   const [isOpen, setIsOpen] = useState(false);
@@ -18,9 +19,12 @@ export default function Section3() {
               projects. We build and develop mobile applications for several top
               platforms, including Android & IOS.
             </p>
-            <button className="2xl:w-[163px] xl:w-[153px] lg:w-[130px] md:w-[120px] sm:w-[110px] w-[100px] 2xl:h-[52px] xl:h-[49px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[34px] rounded-[10px] bg-[#1090CB] 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[11px] font-[500] lg:mb-[0px] mb-[10px] text-white">
+            <Button 
+              variant="primary" 
+              className="2xl:w-[163px] xl:w-[153px] lg:w-[130px] md:w-[120px] sm:w-[110px] w-[100px] 2xl:h-[52px] xl:h-[49px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[34px] lg:mb-[0px] mb-[10px]"
+            >
               View more
-            </button>
+            </Button>
           </div>
 
           <div className="flex-1 2xl:w-[611px] xl:w-[572px] lg:w-[400px] 2xl:h-[490px] xl:h-[459px] lg:h-[350px] md:h-[300px] sm:h-[280px] h-[260px] rounded-[20px] bg-[#1090CB] flex flex-col items-center justify-center 2xl:pt-[68px] xl:pt-[64px] lg:pt-[45px] md:pt-[35px] sm:pt-[30px] pt-[25px] px-4 relative">
@@ -38,9 +42,12 @@ export default function Section3() {
               projects. We build and develop mobile applications for several top
               platforms, including Android & IOS.
             </p>
-            <button className="2xl:w-[163px] xl:w-[153px] lg:w-[130px] md:w-[120px] sm:w-[110px] w-[100px] 2xl:h-[52px] xl:h-[49px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[34px] rounded-[10px] bg-white 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] lg:mb-[0px] mb-[10px] text-[11px] font-[500] text-[#1090CB]">
+            <Button 
+              variant="secondary" 
+              className="2xl:w-[163px] xl:w-[153px] lg:w-[130px] md:w-[120px] sm:w-[110px] w-[100px] 2xl:h-[52px] xl:h-[49px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[34px] lg:mb-[0px] mb-[10px]"
+            >
               View more
-            </button>
+            </Button>
           </div>
         </div>
         <div className="2xl:w-[531px] xl:w-[497px] lg:w-[390px] md:w-[335px] sm:w-[280px] w-[225px] 2xl:h-[540px] xl:h-[505px] lg:h-[400px] md:h-[345px] sm:h-[290px] h-[235px] bg-[radial-gradient(circle_at_center,_#FFD9EB_0%,_rgba(196,196,196,0)_80%)] absolute right-0 2xl:mr-[-80px] xl:mr-[-60px] lg:mr-[-90px] md:mr-[-140px] sm:mr-[-150px] mr-[-10px] xl:mt-[-300px] xl:mt-[-75px] lg:mt-[-250px] md:mt-[-200px] mt-[-250px] -z-10"></div>
