@@ -66,6 +66,7 @@ export default function Hero() {
             description="Lorem Ipsum is simply" 
             bgColor="bg-[#EFEAFF]" 
           />
+          {/* sdfgbsdef */}
           <ServiceItem 
             icon={list2} 
             title="SEO" 
