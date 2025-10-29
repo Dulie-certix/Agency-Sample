@@ -5,7 +5,7 @@ import logo3 from "../assets/logo3.png";
 import logo5 from "../assets/logo5.png";
 import star from "../assets/star.png";
 import design1 from "../assets/design1.png";
-import Button from "../Components/Button";
+import EmailSubscription from "../Components/EmailSubscription";
 
 export default function Section4() {
   const [isOpen, setIsOpen] = useState(false);
@@ -14,7 +14,7 @@ export default function Section4() {
     <div className="w-full flex justify-center relative overflow-hidden">
       
       <div className="2xl:w-[531px] xl:w-[497px] lg:w-[390px] md:w-[335px] sm:w-[280px] w-[225px] 2xl:h-[540px] xl:h-[505px] lg:h-[400px] md:h-[345px] sm:h-[190px] h-[235px] 2xl:ml-[-300px] xl:ml-[-305px] lg:ml-[-215px] md:ml-[-195px] sm:ml-[-155px] ml-[-165px] bg-[radial-gradient(circle_at_center,_#F3FFD9_0%,_#FFFFFF00_70%)] absolute left-0 md:mt-[-100px] -z-10"></div>
-      <section className="w-full 2xl:h-[913px] xl:h-[855px] lg:h-[665px] md:h-[570px] sm:h-[475px] h-[530px] font-Poppins">
+      <section id="section4" className="w-full 2xl:h-[913px] xl:h-[855px] lg:h-[665px] md:h-[570px] sm:h-[475px] h-[530px] font-Poppins">
         <div className="w-full text-center">
           <p className="2xl:text-[26px] xl:text-[24px] lg:text-[20px] md:text-[18px] sm:text-[16px] text-[14px] font-[500] leading-[159%] mb-8">
             You will be in good Company
@@ -62,19 +62,7 @@ export default function Section4() {
               <br />
               text of the printing.
             </p>
-            <div className="flex w-full max-w-[568px] 2xl:h-[72px] xl:h-[67px] lg:h-[55px] md:h-[50px] sm:h-[45px] h-[40px] bg-white rounded-[10px] overflow-hidden">
-              <input
-                type="email"
-                placeholder="Enter your email"
-                className="flex-1 px-4 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[11px] text-[#787878] outline-none"
-              />
-              <Button 
-                variant="primary" 
-                className="2xl:w-[185px] xl:w-[173px] lg:w-[130px] md:w-[115px] sm:w-[100px] w-[90px] bg-black"
-              >
-                SUBSCRIBE
-              </Button>
-            </div>
+            <EmailSubscription />
           </div>
         </div>
       </section>

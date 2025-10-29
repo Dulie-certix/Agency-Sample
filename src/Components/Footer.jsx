@@ -9,7 +9,7 @@ export default function Footer() {
 
   return (
     <div className="w-full flex justify-center">
-      <section className=" w-full bg-white font-poppins  ">
+      <section id="footer" className=" w-full bg-white font-poppins  ">
         <div className="w-full 2xl:pt-[93px] xl:pt-[87px] lg:pt-[65px] md:pt-[55px] sm:pt-[45px] pt-[35px] sm:pl-[80px] pr-[80px]">
           <div className="grid grid-cols-1 md:grid-cols-3 xl:gap-53 mb-8 px-4">
             <div>
