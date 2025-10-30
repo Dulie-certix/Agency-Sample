@@ -42,17 +42,14 @@ body {
   font-family: 'Poppins';
   margin: 0;
   padding: 0;
-  width: 100%;
   background-color: #ffffff;
+  overflow-x: hidden;
   display: flex;
   justify-content: center;
-  overflow-x: hidden;
 }
 
 #root {
   width: 100%;
   max-width: 1536px;
   min-width: 320px;
-  margin: 0 auto;
-  overflow-x: hidden;
 }

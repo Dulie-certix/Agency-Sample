@@ -12,7 +12,7 @@ export default function Section2() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section className="w-full  h-auto bg-white font-Poppins 2xl:pt-[123px] xl:pt-[115px] lg:pt-[85px] md:pt-[70px] sm:pt-[55px] pt-[40px]">
+    <section id="section2" className="w-full  h-auto bg-white font-Poppins 2xl:pt-[123px] xl:pt-[115px] lg:pt-[85px] md:pt-[70px] sm:pt-[55px] pt-[40px]">
       <SectionHeader 
         title={LOREM_TEXT.title}
         subtitle={<>{LOREM_TEXT.subtitle}</>}
