@@ -13,7 +13,10 @@ export default function Hero() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <section id="hero" className="w-full 2xl:h-[968px] xl:h-[910px] lg:h-[700px] md:h-[700px] sm:h-[750px] h-auto m-0 p-0 item-center ">
+    <section
+      id="hero"
+      className="max-w-[1536px] w-full 2xl:h-[968px] xl:h-[910px] lg:h-[700px] md:h-[700px] sm:h-[750px] h-auto m-0 p-0 item-center "
+    >
       <div className="w-full 2xl:h-[793px] xl:h-[743px] lg:h-[580px] md:h-[500px] sm:h-[600px] h-[550px] font-poppins bg-[#1090CB10] 2xl:pt-[137px] xl:pt-[128px] lg:pt-[90px] md:pt-[70px] sm:pt-[50px] pt-[40px] ">
         <div className=" 2xl:w-[529px] xl:w-[496px] lg:w-[350px] md:w-[280px] sm:w-[220px] w-[180px] 2xl:h-[538px] xl:h-[504px] lg:h-[360px] md:h-[290px] sm:h-[230px] h-[180px] 2xl:mt-[-112px] xl:mt-[-105px] lg:mt-[-105px] md:mt-[-100px] sm:mt-[-45px] mt-[-30px] 2xl:ml-[-118px] xl:ml-[-111px] lg:ml-[-80px] md:ml-[-65px] sm:ml-[-50px]  bg-[radial-gradient(circle_at_center,_#EDEAFF_0%,_rgba(196,196,196,0)_50%)]"></div>
 
@@ -31,13 +34,9 @@ export default function Hero() {
 
         <div className="flex flex-row gap-4 2xl:mt-[69px] xl:mt-[65px] lg:pt-[40px] md:mt-[30px] sm:mt-[25px] mt-[120px]  2xl:ml-[131px] xl:ml-[123px] lg:ml-[85px] md:ml-[65px] md:justify-start sm:justify-center justify-center">
           <a href="#footer">
-            <Button variant="primary">
-              Contact us
-            </Button>
+            <Button variant="primary">Contact us</Button>
           </a>
-          <Button variant="secondary">
-            View more
-          </Button>
+          <Button variant="secondary">View more</Button>
         </div>
 
         <div>
@@ -63,30 +62,30 @@ export default function Hero() {
 
       <div className="h-auto w-full bg-white items-center font-poppins md:justify-start sm:justify-center justify-center mx-auto">
         <ul className="flex 2xl:gap-[228px] xl:gap-[214px] lg:gap-[170px] md:gap-[300px] sm:gap-[200px] gap-[150px] list-none overflow-x-auto 2xl:pt-[41px] xl:pt-[38px] lg:pt-[28px] md:pt-[24px] sm:pt-[20px] pt-[15px] 2xl:px-[131px] xl:px-[83px] lg:px-[60px] md:mx-auto sm:px-[70px] px-[10px] overflow-x-auto whitespace-nowrap py-4">
-          <ServiceItem 
-            icon={list1} 
-            title="Web Application" 
-            description="Lorem Ipsum is simply" 
-            bgColor="bg-[#EFEAFF]" 
+          <ServiceItem
+            icon={list1}
+            title="Web Application"
+            description="Lorem Ipsum is simply"
+            bgColor="bg-[#EFEAFF]"
           />
           {/* sdfgbsdef */}
-          <ServiceItem 
-            icon={list2} 
-            title="SEO" 
-            description="Lorem Ipsum is simply" 
-            bgColor="bg-[#ECFFDA]" 
+          <ServiceItem
+            icon={list2}
+            title="SEO"
+            description="Lorem Ipsum is simply"
+            bgColor="bg-[#ECFFDA]"
           />
-          <ServiceItem 
-            icon={list3} 
-            title="AR/VR Solutions" 
-            description="Lorem Ipsum is simply" 
-            bgColor="bg-[#DAE6FF]" 
+          <ServiceItem
+            icon={list3}
+            title="AR/VR Solutions"
+            description="Lorem Ipsum is simply"
+            bgColor="bg-[#DAE6FF]"
           />
-          <ServiceItem 
-            icon={list4} 
-            title="Mobile Application" 
-            description="Lorem Ipsum is simply" 
-            bgColor="bg-[#FFE5DA]" 
+          <ServiceItem
+            icon={list4}
+            title="Mobile Application"
+            description="Lorem Ipsum is simply"
+            bgColor="bg-[#FFE5DA]"
           />
         </ul>
       </div>

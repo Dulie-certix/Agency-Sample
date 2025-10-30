@@ -8,7 +8,7 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="w-full flex justify-center">
+    <div className="max-w-[1536px] w-full flex justify-center">
       <div className="w-full">
         <nav className="font-Poppins items-center flex justify-between py-4 px-auto">
           <Logo className="2xl:ml-[60px] xl:ml-[30px] sm:ml-[30px] ml-[10px]" />

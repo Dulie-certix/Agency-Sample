@@ -34,8 +34,8 @@
 
 html {
   width: 100%;
-  min-width: 100vw;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -43,14 +43,16 @@ body {
   margin: 0;
   padding: 0;
   width: 100%;
-  min-width: 100vw;
   background-color: #ffffff;
   display: flex;
   justify-content: center;
+  overflow-x: hidden;
 }
 
 #root {
   width: 100%;
   max-width: 1536px;
   min-width: 320px;
+  margin: 0 auto;
+  overflow-x: hidden;
 }
