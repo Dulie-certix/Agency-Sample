@@ -11,7 +11,7 @@ export default function ContentSection({
   
   return (
     <div className={`w-full flex flex-col ${flexDirection} items-center gap-8 ${className}`}>
-      <div className="flex-1 max-w-[550px] 2xl:ml-[128px] xl:ml-[107px] lg:ml-[80px] md:ml-[0px] sm:ml-[30px] ml-[30px]">
+      <div className="flex-1 max-w-[550px] 2xl:ml-[123px] xl:ml-[107px] lg:ml-[80px] md:ml-[0px] sm:ml-[30px] ml-[30px]">
         {feature}
         <p className="font-[600] 2xl:text-[32px] xl:text-[30px] lg:text-[24px] md:text-[21px] sm:text-[18px] text-[16px] text-[#252525] leading-[170%] mb-6">
           {title}
