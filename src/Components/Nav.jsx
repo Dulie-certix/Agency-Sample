@@ -30,7 +30,7 @@ export default function Navbar() {
             <Logo className="2xl:ml-[60px] xl:ml-[30px] sm:ml-[30px] ml-[10px]" />
 
             <div className="hidden md:flex items-center ">
-              <div className="flex items-start 2xl:space-x-[44px] xl:space-x-[40px] lg:space-x-[20px] md:space-x-[15px]">
+              <div className="flex items-start 2xl:space-x-[44px] xl:space-x-[40px] lg:space-x-[20px] md:space-x-[15px] ">
                 {NAV_LINKS.map((link) => (
                   <NavLink key={link.name} href={link.href}>
                     {link.name}

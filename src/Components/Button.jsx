@@ -1,5 +1,6 @@
 export default function Button({ children, variant = "primary", onClick, className = "" }) {
-  const baseClasses = "2xl:w-[206px] xl:w-[193px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[90px] 2xl:h-[54px] xl:h-[51px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[30px] font-normal 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[9px] rounded-[10px]";
+  const baseClasses =
+    "2xl:w-[206px] xl:w-[193px] lg:w-[150px] md:w-[130px] sm:w-[120px] w-[90px] 2xl:h-[54px] xl:h-[51px] lg:h-[42px] md:h-[38px] sm:h-[36px] h-[30px] font-normal 2xl:text-[17px] xl:text-[16px] lg:text-[14px] md:text-[13px] sm:text-[12px] text-[9px] rounded-[10px] transition-all duration-300 ease-in-out relative hover:scale-105 hover:-translate-y-1 hover:shadow-lg active:scale-95 active:translate-y-0 cursor-pointer";
   
   const variants = {
     primary: "text-[#FFFFFF] bg-[#1090CB]",

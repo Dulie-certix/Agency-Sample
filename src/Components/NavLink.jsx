@@ -26,16 +26,18 @@ export default function NavLink({ href = "#", children, className = "" }) {
       element.scrollIntoView({ behavior: 'smooth' });
     }
   };
-  
+
+  // Navigation link hover animation
   const baseClasses =
-    "2xl:text-[17px] xl:text-[16px] xm:text-[15px] lg:text-[14px] md:text-[13px] py-1 rounded transition-colors relative";
+    "2xl:text-[17px] xl:text-[16px] xm:text-[15px] lg:text-[14px] md:text-[13px] py-1 rounded transition-all ease-in-out relative hover:scale-110 hover:-translate-y-1";
   const activeClasses = isActive ? "text-[#1090CB]" : "text-black hover:text-[#1090CB]";
   
   return (
     <a href={href} onClick={handleClick} className={`${baseClasses} ${activeClasses} ${className}`}>
       {children}
+      {/* Active state indicator dot */}
       {isActive && (
-        <div className="absolute -top-0.5  transform -translate-x-1/2 w-[8px] h-[8px] bg-[#08D3BB] rounded-full hidden md:block"></div>
+        <div className="absolute -top-0.5 left-1/2 transform -translate-x-1/2 w-[8px] h-[8px] bg-[#08D3BB] rounded-full hidden md:block"></div>
       )}
     </a>
   );
